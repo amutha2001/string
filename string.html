@@ -10,17 +10,17 @@
     <script>
 	    let word="Amutha";
 		let letter=prompt("Enter a lettercheck");
-		let value=0;
+		let val=0;
 		let result=String(word,letter);
 		function String(name,mean){
 			for (i=0; i< name.length; i++){
 				
 				if (name[i]== mean){
-					value++;
+					val++;
 				}
 			}
-			if(value){
-				console.log("This Word is "+ value + " Match");
+			if(val){
+				console.log("This Word is "+ val + " Match");
 			}
 			else{
 				console.log("This Word  is not Match");
